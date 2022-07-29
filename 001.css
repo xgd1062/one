@@ -1,0 +1,35 @@
+/* 给链接删除下划线 */
+a {
+    text-decoration: none;
+}
+
+/* 没有点击过的链接 */
+a:link {
+    color: #333;
+}
+
+/* 点击过的链接 */
+a:visited {
+    color: pink;
+}
+
+/* 放在链接上面 */
+a:hover {
+    color: skyblue;
+}
+
+/* 按下去没松开 */
+a:active {
+    color: greenyellow;
+}
+
+/* 图片宽度 */
+.size {
+    width: 250px;
+}
+
+/* div的设置 */
+.dd1 {
+    text-align: center;
+    background: #E2696B;
+}
