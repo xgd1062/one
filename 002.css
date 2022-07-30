@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #box1 {
     /* 宽高尺寸 */
     height: 200px;
@@ -5,6 +9,18 @@
     background: cornflowerblue url(img/001.jpg) no-repeat scroll center;
 }
 
+#box1 .box1-1 a {
+    display: inline-block;
+    background-color: #00ffcc;
+    color: #f98c10;
+    width: 24%;
+    height: 70px;
+    text-align: center;
+    tab-size: 14px;
+    line-height: 14px;
+    padding-top: 30px;
+    
+}
 
 /* input {
     width: 50px;
@@ -59,22 +75,22 @@ a {
 }
 
 /* 没有点击过的链接 */
-a:link {
+#box3 a:link {
     color: pink;
 }
 
 /* 点击过的链接 */
-a:visited {
+#box3 a:visited {
     color: pink;
 }
 
 /* 放在链接上面 */
-a:hover {
+#box3 a:hover {
     color: skyblue;
 }
 
 /* 按下去没松开 */
-a:active {
+#box3 a:active {
     color: greenyellow;
 }
 
