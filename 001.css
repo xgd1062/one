@@ -33,3 +33,25 @@ a:active {
     text-align: center;
     background: #E2696B;
 }
+
+#fff {
+    width: 1366px;
+    overflow: hidden;
+    /* background-color: #158bb8; */
+    margin: 0 auto;
+}
+
+#fff div {
+    float: left;
+    width: 159.5px;
+    height: 159.5px;
+    /* background-color: #baccd9; */
+    margin-left: 10px;
+
+}
+
+#fff img {
+    width: 159.5px;
+    height: 159.5px;
+    border-radius: 50%;
+}
