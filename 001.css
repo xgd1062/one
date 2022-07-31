@@ -1,3 +1,9 @@
+/* 格式化内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* 给链接删除下划线 */
 a {
     text-decoration: none;
@@ -23,15 +29,45 @@ a:active {
     color: greenyellow;
 }
 
-/* 图片宽度 */
-.size {
-    width: 43%;
-}
-
 /* div的设置 */
 .dd1 {
-    text-align: center;
+    width: 1366px;
+    margin: 0 auto;
     background: #E2696B;
+    border-radius: 15px;
+    position: sticky;
+    top: 5px;
+}
+
+.dd1 div {
+    width: 40%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* 图片宽度 */
+.dd1 .size {
+    float: left;
+    width: 44%;
+    border-radius: 10%;
+    margin: 5px 0% 5px 4%;
+}
+
+.dd2 {
+    width: 1366px;
+    background-color: #b0d5df;
+    margin: 20px auto;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.dd2 span {
+    float: left;
+    width: 30%;
+    margin: 10px 0 10px 2.5%;
+    background-color: #7a7374;
+    border-radius: 10px;
 }
 
 #fff {
