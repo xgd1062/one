@@ -1,0 +1,85 @@
+.a1 {
+    margin: auto;
+    background: #c0a7aa;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+}
+
+.a11 {
+    float: left;
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.a11 img {
+    width: 279px;
+    position: relative;
+    bottom: 11px;
+}
+
+.a12 {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+.a121 {
+    float: left;
+    width: 33%;
+    height: 100%;
+    background: #e9e1da;
+    overflow: hidden;
+}
+
+.a121:hover {
+    height: 400%;
+}
+
+.a121 div:hover {
+    background: #d9bbb8;
+}
+
+.a122 {
+    float: left;
+    width: 34%;
+    height: 100%;
+    background: #e9e1da;
+    overflow: hidden;
+}
+
+.a122:hover {
+    height: 400%;
+}
+
+.a122 div:hover {
+    background: #d9bbb8;
+}
+
+.a123 {
+    float: left;
+    width: 33%;
+    height: 100%;
+    background: #e9e1da;
+    overflow: hidden;
+}
+
+.a123:hover {
+    height: 400%;
+}
+
+.a123 div:hover {
+    background: #d9bbb8;
+}
+
+.a13 {
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.a13 img {
+    height: 100px;
+}

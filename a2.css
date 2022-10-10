@@ -1,0 +1,30 @@
+.a2 {
+    margin: auto;
+    width: 100%;
+    height: 634.6875px;
+}
+
+.a2>div {
+    float: left;
+    background: rgb(225, 216, 201, 0.3);
+    width: 12%;
+    height: 100%;
+    margin-left: 2%;
+    border-radius: 2rem;
+}
+
+.a2>div>div {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.a2 img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.a2 p {
+    white-space: nowrap;
+}
